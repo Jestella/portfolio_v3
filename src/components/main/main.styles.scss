@@ -1,0 +1,96 @@
+.main {
+  display: flex;
+  justify-content: center;
+  padding: 170px;
+  margin: 20px 5px 40px;
+  font-family: "Roboto", sans-serif;
+
+  @media screen and (max-width: 799px) {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 40px 50%;
+    margin: 20px 0;
+  }
+}
+
+.main_image {
+  @media screen and (max-width: 799px) {
+    justify-self: center;
+    margin-bottom: 20px;
+  }
+}
+
+.profile_image {
+  width: 280px;
+  height: 280px;
+  padding: 2px;
+  background-color: #262626;
+  border-radius: 50%;
+  // box-shadow: 0 1px 4px #262626;
+
+  &:hover {
+    box-shadow: 0 1px 20px #595260;
+    transition: 0.3s ease-in-out;
+  }
+
+  @media screen and (max-width: 799px) {
+    width: 140px;
+    height: 140px;
+  }
+}
+
+.main_content {
+  margin-left: 40px;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 44px;
+
+  .gray1 {
+    color: rgb(129, 127, 127);
+  }
+
+  .gray2 {
+    color: rgb(168, 166, 166);
+  }
+
+  .gray3 {
+    color: rgb(199, 198, 198);
+  }
+
+  @media screen and (max-width: 799px) {
+    font-size: 30px;
+    margin: 0;
+    padding: 0 3%;
+    line-height: 38px;
+    width: 100vw;
+    text-align: center;
+  }
+}
+
+.lang_btn {
+  background-image: radial-gradient(
+    circle 592px at 48.2% 50%,
+    rgba(255, 255, 249, 0.6) 0%,
+    rgba(160, 199, 254, 1) 74.6%
+  );
+  color: gray;
+  font-weight: 500;
+  border: none;
+  border-radius: 15px;
+  font-size: 13px;
+  width: 144px;
+  height: 28px;
+  margin-right: 10px;
+
+  &:hover {
+    background-color: #262626;
+    background-image: unset;
+    color: lightyellow;
+    border: none;
+  }
+
+  @media screen and (max-width: 799px) {
+    width: 100px;
+    margin-top: 40px;
+  }
+}

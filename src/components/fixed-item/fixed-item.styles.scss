@@ -1,0 +1,24 @@
+.fixed_item {
+  position: fixed;
+  top: 86vh;
+  right: 24px;
+  width: 30px;
+  height: 100px;
+
+  button {
+    color: lightgray;
+    border: none;
+    background-color: inherit;
+    margin: 3px;
+
+    &:hover {
+      transition: 0.2s ease-in-out;
+      color: #595260;
+      border-radius: 50%;
+    }
+  }
+}
+
+.fixed_icon {
+  font-size: 24px;
+}

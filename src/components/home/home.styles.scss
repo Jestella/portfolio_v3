@@ -1,0 +1,90 @@
+.home {
+  padding: 25px 0;
+}
+
+/* responsive icons */
+
+.hue_shift {
+  animation: hue-shift 5s infinite alternate;
+}
+
+.responsive_icon {
+  position: absolute;
+  font-size: 42px;
+
+  @media screen and (max-width: 799px) {
+    display: none;
+  }
+}
+
+.fa-code-branch {
+  top: 180px;
+  left: 230px;
+  animation: rotate 2s infinite alternate;
+  color: #ffbcbc;
+}
+
+.fa-cog {
+  top: 370px;
+  left: 120px;
+  animation: rotate 2.5s infinite alternate;
+  color: #7dedff;
+}
+
+.fa-star {
+  top: 150px;
+  right: 350px;
+  animation: rotate 2s infinite alternate;
+  color: #b3e283;
+}
+
+.fa-wrench {
+  top: 360px;
+  right: 220px;
+  animation: move-up 2s infinite alternate;
+  color: #d9dd6b;
+}
+
+.fa-code {
+  top: 260px;
+  right: 90px;
+  animation: move-down 2s infinite alternate;
+  color: #c490e4;
+}
+
+/* animation */
+@keyframes move-up {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(2rem);
+  }
+}
+
+@keyframes move-down {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-2rem);
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(-45deg);
+  }
+  to {
+    transform: rotate(90deg);
+  }
+}
+
+@keyframes hue-shift {
+  from {
+    filter: hue-rotate(0);
+  }
+  to {
+    filter: hue-rotate(365deg);
+  }
+}

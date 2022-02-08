@@ -1,0 +1,17 @@
+.button {
+  background-color: inherit;
+  color: #ffe268;
+  border: 1px solid #ffe268;
+  width: 86px;
+  height: 30px;
+  font-size: 15px;
+
+  &:hover {
+    background-color: #ffe268;
+    color: #262626;
+  }
+
+  @media screen and (max-width: 799px) {
+    font-size: 13px;
+  }
+}
