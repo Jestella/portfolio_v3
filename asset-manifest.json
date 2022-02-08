@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f4e35d5a.chunk.css",
+    "main.js": "/static/js/main.9fe514db.chunk.js",
+    "main.js.map": "/static/js/main.9fe514db.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b03784a9.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b03784a9.js.map",
+    "static/js/2.353e2fe4.chunk.js": "/static/js/2.353e2fe4.chunk.js",
+    "static/js/2.353e2fe4.chunk.js.map": "/static/js/2.353e2fe4.chunk.js.map",
+    "static/js/3.ced6ae90.chunk.js": "/static/js/3.ced6ae90.chunk.js",
+    "static/js/3.ced6ae90.chunk.js.map": "/static/js/3.ced6ae90.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.f4e35d5a.chunk.css.map": "/static/css/main.f4e35d5a.chunk.css.map",
+    "static/js/2.353e2fe4.chunk.js.LICENSE.txt": "/static/js/2.353e2fe4.chunk.js.LICENSE.txt",
+    "static/media/Typescript.1a203e65.png": "/static/media/Typescript.1a203e65.png",
+    "static/media/memoji.5a14e4c7.png": "/static/media/memoji.5a14e4c7.png",
+    "static/media/profile.2a48467f.jpeg": "/static/media/profile.2a48467f.jpeg",
+    "static/media/sass.24d60c4f.png": "/static/media/sass.24d60c4f.png",
+    "static/media/stellalee_CV.1b334402.pdf": "/static/media/stellalee_CV.1b334402.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b03784a9.js",
+    "static/js/2.353e2fe4.chunk.js",
+    "static/css/main.f4e35d5a.chunk.css",
+    "static/js/main.9fe514db.chunk.js"
+  ]
+}
