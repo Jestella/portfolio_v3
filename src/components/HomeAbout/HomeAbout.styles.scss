@@ -1,0 +1,38 @@
+.about {
+  color: #fff;
+  background-color: #262626;
+  background-image: url('https://www.transparenttextures.com/patterns/inspiration-geometry.png');
+  padding: 30px 0;
+}
+
+.about_container {
+  padding: 10px 0 80px;
+  margin: 0 90px;
+
+  @media screen and (max-width: 799px) {
+    margin: 12px;
+  }
+
+  h1 {
+    padding: 0 0 26px;
+    font-size: 50px;
+    font-family: 'Shadows Into Light', cursive;
+
+    @media screen and (max-width: 799px) {
+      font-size: 36px;
+    }
+  }
+
+  .Memoji {
+    width: 50px;
+    height: 50px;
+  }
+
+  h3 {
+    padding: 40px 0 10px 0;
+  }
+
+  p {
+    font-size: 20px;
+  }
+}

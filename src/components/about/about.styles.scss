@@ -1,12 +1,12 @@
 .about {
   color: #fff;
   background-color: #262626;
-  background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
-  padding: 30px 0;
+  background-image: url('https://www.transparenttextures.com/patterns/inspiration-geometry.png');
+  padding: 120px 0;
 }
 
 .about_container {
-  padding: 10px 0 80px;
+  padding: 0 0 80px;
   margin: 0 90px;
 
   @media screen and (max-width: 799px) {
@@ -14,9 +14,9 @@
   }
 
   h1 {
-    padding: 0 0 26px;
+    padding: 0 0 10px;
     font-size: 50px;
-    font-family: "Shadows Into Light", cursive;
+    font-family: 'Shadows Into Light', cursive;
 
     @media screen and (max-width: 799px) {
       font-size: 36px;
@@ -29,11 +29,11 @@
   }
 
   h3 {
-    padding: 40px 0 10px 0;
+    padding: 40px 0 6px 0;
   }
 
   p {
-    font-size: 20px;
+    font-size: 19px;
   }
 
   span {
@@ -41,11 +41,11 @@
     font-weight: 400;
 
     &:hover {
-      color: #b983ff;
+      color: red;
     }
   }
 
-  button {
+  .envelop-btn {
     background-color: inherit;
     color: #ffd523;
     border: none;
@@ -55,6 +55,7 @@
     margin-top: 50px;
     text-align: left;
     font-weight: 400;
+    cursor: pointer;
 
     @media screen and (max-width: 799px) {
       padding-left: 0;

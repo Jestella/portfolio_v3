@@ -1,38 +1,32 @@
-import React, { Fragment } from "react";
-import { Router, Route, Routes } from "react-router-dom";
+import React from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-import Navbar from "./components/navbar/navbar.component";
-import Footer from "./components/footer/footer.component";
-import Home from "./components/home/home.component";
-import About from "./components/about/about.component";
-import Skills from "./components/skills/skills.component";
-import Projects from "./components/projects/projects.component";
-import Devlog from "./components/devlog/devlog.component";
-import Contact from "./components/contact/contact.component";
-import FixedItem from "./components/fixed-item/fixed-item.component";
-import { DevlogPage } from "./components/pages/devlog-page/devlog-page.component";
+import Navbar from './components/Navbar/Navbar.component';
+import Footer from './components/Footer/Footer.component';
+import Home from './components/Home/Home.component';
+import FixedItem from './components/FixedItem/FixedItem.component';
+import About from './components/About/About.component';
+import Portfolio from './components/Portfolio/Portfolio.component';
+import Devlog from './components/Devlog/Devlog.component';
+import ErrorPage from './components/ErrorPage/ErrorPage.component';
 
-import "./App.css";
+import './App.css';
 
-const App = () => (
-  // <Router>
-  <Fragment>
-    <Navbar />
-    {/* <Route exact path="/" component={Home} /> */}
-    <Home />
-    <About />
-    <Skills />
-    <Projects />
-    {/* <Routes>
-        <Route exact path="/devlog" component={DevlogPage} />
-      </Routes> */}
-    <Devlog />
-
-    <Contact />
-    <Footer />
-    <FixedItem />
-  </Fragment>
-  // </Router>
-);
+const App = () => {
+  return (
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route exact path='/' element={<Home />} />
+        <Route exact path='/about' element={<About />} />
+        <Route exact path='/portfolio' element={<Portfolio />} />
+        <Route exact path='/devlog' element={<Devlog />} />
+        <Route exact path='*' element={<ErrorPage />} />
+      </Routes>
+      <Footer />
+      <FixedItem />
+    </BrowserRouter>
+  );
+};
 
 export default App;

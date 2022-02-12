@@ -1,0 +1,65 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card {
+  margin: 20px 0;
+  text-align: center;
+
+  img {
+    max-width: 400px;
+    height: 260px;
+
+    &:hover {
+      opacity: 0.7;
+      transition: 0.2s ease-in-out;
+    }
+  }
+
+  .card-text {
+    width: 400px;
+    height: 90px;
+  }
+
+  .card-project-name {
+    font-size: 16px;
+    margin: 0;
+  }
+
+  .card-project-subname {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+  }
+
+  .custom-button {
+    margin: 0;
+  }
+
+  @media screen and (max-width: 1373px) {
+    img {
+      width: 600px;
+      height: 300px;
+    }
+
+    .card-text {
+      width: 500px;
+    }
+  }
+
+  @media screen and (max-width: 799px) {
+    padding: 0 0 50px;
+    margin: 0;
+
+    img {
+      width: 400px;
+      height: 260px;
+    }
+
+    .card-text {
+      width: 400px;
+    }
+  }
+}

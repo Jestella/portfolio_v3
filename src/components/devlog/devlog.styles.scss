@@ -1,24 +1,24 @@
 .devlog {
-  padding: 30px 0;
   background-color: #ffeded;
+  padding: 120px 0 200px;
 }
 
-.devlog_container {
+.devlog-container {
+  padding: 120px 0;
+  margin: 0 90px;
   text-align: center;
-  padding: 30px 0 80px;
+}
 
-  h1 {
-    font-family: "Shadows Into Light", cursive;
-    font-size: 50px;
-    padding: 50px 0 0;
+.dev-btn {
+  background-color: inherit;
+  color: lightsalmon;
+  border: 1px solid lightsalmon;
+  width: 86px;
+  height: 30px;
+  font-size: 15px;
 
-    @media screen and (max-width: 799px) {
-      font-size: 36px;
-      padding: 50px 0 0;
-    }
-  }
-
-  @media screen and (max-width: 799px) {
-    padding: 0 0 50px;
+  &:hover {
+    background-color: lightsalmon;
+    color: #262626;
   }
 }

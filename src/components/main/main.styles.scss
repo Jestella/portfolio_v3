@@ -2,8 +2,8 @@
   display: flex;
   justify-content: center;
   padding: 170px;
-  margin: 20px 5px 40px;
-  font-family: "Roboto", sans-serif;
+  margin: 45px 5px;
+  font-family: 'Roboto', sans-serif;
 
   @media screen and (max-width: 799px) {
     display: grid;
@@ -33,6 +33,11 @@
     transition: 0.3s ease-in-out;
   }
 
+  @media screen and (max-width: 1150px) {
+    width: 200px;
+    height: 200px;
+  }
+
   @media screen and (max-width: 799px) {
     width: 140px;
     height: 140px;
@@ -57,11 +62,16 @@
     color: rgb(199, 198, 198);
   }
 
+  @media screen and (max-width: 1150px) {
+    font-size: 33px;
+    line-height: 32px;
+  }
+
   @media screen and (max-width: 799px) {
     font-size: 30px;
     margin: 0;
     padding: 0 3%;
-    line-height: 38px;
+    line-height: 34px;
     width: 100vw;
     text-align: center;
   }
@@ -87,6 +97,10 @@
     background-image: unset;
     color: lightyellow;
     border: none;
+  }
+
+  @media screen and (max-width: 1150px) {
+    width: 125px;
   }
 
   @media screen and (max-width: 799px) {

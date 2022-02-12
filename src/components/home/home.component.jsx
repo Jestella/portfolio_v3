@@ -1,28 +1,36 @@
-import React from "react";
+import React, { Fragment } from 'react';
+import Main from '../Main/Main.component';
+import HomeAbout from '../HomeAbout/HomeAbout.component';
+import HomeProjects from '../HomeProjects/HomeProjects.component';
+import HomeDevlog from '../HomeDevlog/HomeDevlog';
+
 import {
   FaCodeBranch,
   FaCode,
   FaWrench,
   FaCog,
   FaStarOfLife,
-} from "react-icons/fa";
+} from 'react-icons/fa';
 
-import "./home.styles.scss";
-
-import Main from "../main/main.component";
+import './Home.styles.scss';
 
 function Home() {
   return (
-    <div className="home">
-      <div className="image_container hue_shift">
-        <FaCodeBranch className="fa-code-branch responsive_icon" />
-        <FaCog className="fa-cog responsive_icon" />
-        <FaCode className="fa-code responsive_icon" />
-        <FaWrench className="fa-wrench responsive_icon" />
-        <FaStarOfLife className="fa-star responsive_icon" />
+    <Fragment>
+      <div className='home'>
+        <div className='image_container hue_shift'>
+          <FaCodeBranch className='fa-code-branch responsive_icon' />
+          <FaCog className='fa-cog responsive_icon' />
+          <FaCode className='fa-code responsive_icon' />
+          <FaWrench className='fa-wrench responsive_icon' />
+          <FaStarOfLife className='fa-star responsive_icon' />
+        </div>
+        <Main />
       </div>
-      <Main />
-    </div>
+      <HomeAbout />
+      <HomeProjects />
+      <HomeDevlog />
+    </Fragment>
   );
 }
 

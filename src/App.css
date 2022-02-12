@@ -3,9 +3,9 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
-  background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
+  background-image: url('https://www.transparenttextures.com/patterns/inspiration-geometry.png');
 }
 
 body ::selection {
@@ -44,4 +44,8 @@ li {
 button:hover,
 span:hover {
   transition: 0.2s ease-in-out;
+}
+
+.gray-light {
+  color: lightgray;
 }

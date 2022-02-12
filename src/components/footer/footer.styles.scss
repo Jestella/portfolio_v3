@@ -1,9 +1,43 @@
 .footer {
-  height: 50px;
+  height: 220px;
+  background-color: #262626;
 }
 
 .footer_container {
   text-align: center;
   font-size: 15px;
-  color: lightgray;
+  color: #fff;
+  padding-top: 20px;
+}
+
+.contact-items {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.contact-item {
+  width: 50px;
+  height: 50px;
+  margin: 12px;
+
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+
+  &:hover {
+    transition: 0.2s ease-in-out;
+    background-color: #ffd523;
+    color: #262626;
+  }
+}
+
+.socialmedia {
+  font-size: 26px;
+  margin: 12px;
+}
+
+.mail {
+  font-size: 22px;
+  margin: 14px;
 }

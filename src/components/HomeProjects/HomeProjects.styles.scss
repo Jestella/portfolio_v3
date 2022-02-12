@@ -1,0 +1,20 @@
+.projects {
+  background-color: #262626;
+  color: #fff;
+}
+
+.projects-container {
+  // display: flex;
+  // flex-wrap: wrap;
+  padding: 40px 0;
+  margin: 0 90px;
+
+  @media screen and (max-width: 799px) {
+    padding: 0 0 50px;
+  }
+}
+
+.hidden {
+  opacity: 0;
+  transform: translateY(5rem);
+}

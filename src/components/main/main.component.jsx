@@ -1,50 +1,51 @@
-import React from "react";
-import { withTranslation } from "react-i18next";
+import React from 'react';
+import { withTranslation } from 'react-i18next';
 
-import "./main.styles.scss";
-import profileImage from "../../assets/profile.jpeg";
+import profileImage from '../../assets/profile.jpeg';
+
+import './Main.styles.scss';
 
 const Main = ({ t, i18n }) => {
   return (
     <div>
-      <div className="main">
-        <div className="main_image">
-          <img src={profileImage} className="profile_image" />
+      <div className='main'>
+        <div className='main_image'>
+          <img src={profileImage} className='profile_image' />
         </div>
-        <div className="main_content">
-          <span>{t("main.name")}</span>
+        <div className='main_content'>
+          <span>{t('main.name')}</span>
           <br />
-          <span>{t("main.jobtitle")}</span>
+          <span>{t('main.jobtitle')}</span>
           <br />
-          <span>{t("main.city")}</span>
+          <span>{t('main.city')}</span>
           <br />
-          <span className="gray1">{t("main.gray1")}</span>
+          <span className='gray1'>{t('main.gray1')}</span>
           <br />
-          <span className="gray2">{t("main.gray2")}</span>
+          <span className='gray2'>{t('main.gray2')}</span>
           <br />
-          <span className="gray3">{t("main.gray3")}</span>
+          <span className='gray3'>{t('main.gray3')}</span>
 
-          <div className="lang_btns">
+          <div className='lang_btns'>
             <button
-              className="lang_btn"
+              className='lang_btn'
               onMouseEnter={() => {
-                i18n.changeLanguage("en-US");
+                i18n.changeLanguage('en-US');
               }}
             >
               EN
             </button>
             <button
-              className="lang_btn"
+              className='lang_btn'
               onMouseEnter={() => {
-                i18n.changeLanguage("fr-FR");
+                i18n.changeLanguage('fr-FR');
               }}
             >
               FR
             </button>
             <button
-              className="lang_btn"
+              className='lang_btn'
               onMouseEnter={() => {
-                i18n.changeLanguage("ko-KR");
+                i18n.changeLanguage('ko-KR');
               }}
             >
               KR

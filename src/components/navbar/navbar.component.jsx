@@ -1,25 +1,47 @@
-import React from "react";
+import React, { Fragment } from 'react';
+import { Link } from 'react-router-dom';
 
-import "./navbar.styles.scss";
+import './Navbar.styles.scss';
 
 const scrollToTop = () => {
   window.scrollTo({
     top: 0,
-    behavior: "smooth",
+    behavior: 'smooth',
   });
 };
 
 export default function Navbar() {
   return (
-    <div className="header">
-      <nav className="nav">
-        <p className="nav_item nav_left" onClick={scrollToTop}>
-          JE.
-        </p>
-        <p className="nav_item nav_right" onClick={scrollToTop}>
-          STELLA LEE
-        </p>
-      </nav>
-    </div>
+    <Fragment className='header'>
+      <ul className='nav'>
+        <li>
+          <Link to='/' onClick={scrollToTop} className='nav-item nav-left'>
+            JE.
+          </Link>
+        </li>
+        <ul className='nav-sm-container'>
+          <li>
+            <Link to='/about' className='nav-sm'>
+              ABOUT
+            </Link>
+          </li>
+          <li>
+            <Link to='/portfolio' className='nav-sm'>
+              PORTFOLIO
+            </Link>
+          </li>
+          <li>
+            <Link to='/devlog' className='nav-sm'>
+              DEVLOG
+            </Link>
+          </li>
+        </ul>
+        <li>
+          <Link to='/' onClick={scrollToTop} className='nav-item nav-right'>
+            STELLA LEE
+          </Link>
+        </li>
+      </ul>
+    </Fragment>
   );
 }

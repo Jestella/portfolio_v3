@@ -1,0 +1,39 @@
+.home-devlog {
+  padding: 30px 0 100px;
+  background-color: #ffeded;
+  background-image: url('https://www.transparenttextures.com/patterns/inspiration-geometry.png');
+}
+
+.home-devlog-container {
+  text-align: center;
+  padding: 50px 0;
+
+  h1 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 50px;
+    padding: 50px 0 0;
+
+    @media screen and (max-width: 799px) {
+      font-size: 36px;
+      padding: 50px 0 0;
+    }
+  }
+
+  @media screen and (max-width: 799px) {
+    padding: 0 0 50px;
+  }
+}
+
+.dev-btn {
+  background-color: inherit;
+  color: lightsalmon;
+  border: 1px solid lightsalmon;
+  width: 86px;
+  height: 30px;
+  font-size: 15px;
+
+  &:hover {
+    background-color: lightsalmon;
+    color: #262626;
+  }
+}
