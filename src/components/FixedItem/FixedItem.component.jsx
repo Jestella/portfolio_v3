@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaEnvelope, FaLinkedinIn } from 'react-icons/fa';
+import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 
 import './FixedItem.styles.scss';
 

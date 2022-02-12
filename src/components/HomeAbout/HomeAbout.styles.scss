@@ -9,18 +9,10 @@
   padding: 10px 0 80px;
   margin: 0 90px;
 
-  @media screen and (max-width: 799px) {
-    margin: 12px;
-  }
-
   h1 {
     padding: 0 0 26px;
     font-size: 50px;
     font-family: 'Shadows Into Light', cursive;
-
-    @media screen and (max-width: 799px) {
-      font-size: 36px;
-    }
   }
 
   .Memoji {
@@ -34,5 +26,14 @@
 
   p {
     font-size: 20px;
+  }
+
+  @media screen and (max-width: 799px) {
+    margin: 12px;
+    text-align: center;
+
+    h1 {
+      font-size: 36px;
+    }
   }
 }

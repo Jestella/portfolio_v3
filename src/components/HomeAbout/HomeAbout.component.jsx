@@ -31,7 +31,7 @@ const HomeAbout = () => (
         </h1>
         <p>
           Currently looking for a new client & full-time job opportunity. Click
-          to view About page. &nbsp;
+          to learn more about me. &nbsp;
           <Link to='/about'>
             <Button>Click</Button>
           </Link>

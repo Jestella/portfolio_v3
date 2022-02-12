@@ -1,7 +1,6 @@
 import React, { Fragment, useState } from 'react';
 
 import { ProjectData } from '../ProjectItems/ProjectData';
-import Button from '../Button/Button.component';
 
 import './HomeProjectItems.styles.scss';
 

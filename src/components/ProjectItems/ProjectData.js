@@ -2,8 +2,8 @@ export const ProjectData = [
   {
     id: 1,
     projectName: 'Portfolio / 2022',
-    subName: 'My portfolio',
-    technologies: 'React, Scss',
+    subName: 'My portfolio website',
+    technologies: 'React, Sass',
     imageUrl:
       'https://user-images.githubusercontent.com/31642902/153725838-7d250f4b-0c86-4ced-92ea-e2702f809eba.png',
     liveDemo: 'https://stella-lee.com',
@@ -17,7 +17,7 @@ export const ProjectData = [
     id: 2,
     projectName: 'Style S / 2021',
     subName: 'An e-commerce platform built with React and Redux',
-    technologies: 'React, Redux, Scss',
+    technologies: 'React, Redux, Sass',
     imageUrl:
       'https://user-images.githubusercontent.com/31642902/123004445-98efe580-d382-11eb-9d4b-5b954c708aed.png',
     liveDemo: 'https://jestella.github.io/e-commerce/',
