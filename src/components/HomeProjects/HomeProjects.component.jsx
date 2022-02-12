@@ -14,15 +14,15 @@ function HomeProject() {
         <SectionTitle>project</SectionTitle>
 
         <div className='projects-container'>
-          <p>
-            These are my recent projects. &nbsp;
-            <Link to='/portfolio' className='btn'>
-              <Button>View More</Button>
-            </Link>
-          </p>
+          <p>These are some of my projects.</p>
 
           <br />
           <HomeProjectItem />
+          <div className='center'>
+            <Link to='/portfolio'>
+              <Button>View More</Button>
+            </Link>
+          </div>
         </div>
       </div>
     </Fragment>

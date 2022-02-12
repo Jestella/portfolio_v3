@@ -4,22 +4,22 @@ import Button from '../Button/Button.component';
 import SectionTitle from '../SectionTitle/SectionTitle.component';
 import Devlog from '../Devlog/Devlog.component';
 
-import './HomeDevlog.styles.scss';
+import './HomeLab.styles.scss';
 
-export default function HomeDevlog() {
+export default function HomeLab() {
   let navigate = useNavigate();
 
   return (
     <Fragment>
-      <div className='home-devlog'>
-        <SectionTitle>devlog</SectionTitle>
-        <div className='home-devlog-container'>
-          <h2>💻</h2>
-          <p>What I learned & built this month.</p>
+      <div className='home-lab'>
+        <SectionTitle>lab</SectionTitle>
+        <div className='home-lab-container'>
+          <h2>💡</h2>
+          <p>Random Experiments.</p>
           <div className='center'>
             <button
               onClick={() => {
-                navigate('/devlog');
+                navigate('/lab');
               }}
               className='dev-btn'
             >

@@ -35,6 +35,11 @@ export default function Navbar() {
               DEVLOG
             </Link>
           </li>
+          <li>
+            <Link to='/lab' className='nav-sm'>
+              LAB
+            </Link>
+          </li>
         </ul>
         <li>
           <Link to='/' onClick={scrollToTop} className='nav-item nav-right'>

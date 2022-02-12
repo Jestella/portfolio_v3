@@ -3,6 +3,7 @@ import Main from '../Main/Main.component';
 import HomeAbout from '../HomeAbout/HomeAbout.component';
 import HomeProjects from '../HomeProjects/HomeProjects.component';
 import HomeDevlog from '../HomeDevlog/HomeDevlog';
+import HomeLab from '../HomeLab/HomeLab';
 
 import {
   FaCodeBranch,
@@ -30,6 +31,7 @@ function Home() {
       <HomeAbout />
       <HomeProjects />
       <HomeDevlog />
+      <HomeLab />
     </Fragment>
   );
 }

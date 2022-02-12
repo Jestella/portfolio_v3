@@ -46,6 +46,10 @@ span:hover {
   transition: 0.2s ease-in-out;
 }
 
+.center {
+  text-align: center;
+}
+
 .gray-light {
   color: lightgray;
 }

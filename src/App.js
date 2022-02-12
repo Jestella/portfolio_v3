@@ -8,6 +8,7 @@ import FixedItem from './components/FixedItem/FixedItem.component';
 import About from './components/About/About.component';
 import Portfolio from './components/Portfolio/Portfolio.component';
 import Devlog from './components/Devlog/Devlog.component';
+import Lab from './components/Lab/Lab.component';
 import ErrorPage from './components/ErrorPage/ErrorPage.component';
 
 import './App.css';
@@ -21,6 +22,7 @@ const App = () => {
         <Route exact path='/about' element={<About />} />
         <Route exact path='/portfolio' element={<Portfolio />} />
         <Route exact path='/devlog' element={<Devlog />} />
+        <Route exact path='/lab' element={<Lab />} />
         <Route exact path='*' element={<ErrorPage />} />
       </Routes>
       <Footer />

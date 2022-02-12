@@ -1,6 +1,20 @@
 export const ProjectData = [
   {
     id: 1,
+    projectName: 'Portfolio / 2022',
+    subName: 'My portfolio',
+    technologies: 'React, Scss',
+    imageUrl:
+      'https://user-images.githubusercontent.com/31642902/153725838-7d250f4b-0c86-4ced-92ea-e2702f809eba.png',
+    liveDemo: 'https://stella-lee.com',
+    gitHub: 'https://github.com/Jestella/portfolio_v3',
+    description1:
+      'Updated an existing portfolio with React (used React Hooks, i18next for the main page)',
+    description2:
+      'Previous versions: https://jestella.github.io/portfolio_v2/, https://github.com/Jestella/portfolio_v1',
+  },
+  {
+    id: 2,
     projectName: 'Style S / 2021',
     subName: 'An e-commerce platform built with React and Redux',
     technologies: 'React, Redux, Scss',
@@ -13,7 +27,7 @@ export const ProjectData = [
       'Features: 1). Google Sign In Authentication 2). Payment with Stripe API 3). Add items from Shop page 4). Remove items from Checkout page.',
   },
   {
-    id: 2,
+    id: 3,
     projectName: 'S Multimedia Studio / 2021',
     subName: 'A single page website I built to practice DOM',
     technologies: 'JavaScript, CSS3, HTML5',
@@ -27,7 +41,7 @@ export const ProjectData = [
       'Event propagation, delegation, DOM traversing, and lazy loading images are used for the project.',
   },
   {
-    id: 3,
+    id: 4,
     projectName: 'Quiz / 2021',
     subName: 'Get-to-Know-Her Quiz built with React',
     technologies: 'React, TypeScript',
@@ -40,7 +54,7 @@ export const ProjectData = [
       'Created quiz API (url: https://s-quiz-api.herokuapp.com/quiz)',
   },
   {
-    id: 4,
+    id: 5,
     projectName: 'Star Wars for non Star Wars fans / 2021',
     subName: 'A Star Wars Cheat Sheet',
     technologies: 'SWAPI API, React',
@@ -68,7 +82,7 @@ export const ProjectData = [
   //     "How to use (4-steps): 1). Input a new word 2). Add a sample sentence 3). Provide definition of the new word 4). Click pencil icon to create a new note.",
   // },
   {
-    id: 5,
+    id: 6,
     projectName: 'Blog, Story / 2020',
     subName: 'A simple blog website built using ejs',
     technologies: 'JavaScript, Node.js, Bootstrap, EJS',
@@ -78,6 +92,6 @@ export const ProjectData = [
     gitHub: 'https://github.com/Jestella/blog',
     description1:
       'Blog, Story is a personal blog website built with EJS templating language and Bootstrap.',
-    description2: 'The app is connected to MongoDB using Mongoose.',
+    description2: 'Backend: MongoDB',
   },
 ];
