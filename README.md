@@ -9,7 +9,9 @@
 <br />
 
 #### version2: https://jestella.github.io/portfolio_v2
-- built with React & Sass (SPA)
+- built with React & Sass 
+- SPA
+- used class and functional components
 <br />
 
 #### version1: https://jestella.github.io/portfolio_v1
