@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import SectionTitle from '../SectionTitle/SectionTitle.component';
 import Button from '../Button/Button.component';
+import GoToTop from '../GoToTop';
 
 import { FaRegFolder, FaRegFolderOpen } from 'react-icons/fa';
 import memoji from '../../assets/memoji.png';
@@ -60,6 +61,7 @@ function About() {
           </a>
         </button>
       </div>
+      <GoToTop />
     </div>
   );
 }

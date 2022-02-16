@@ -3,6 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import Button from '../Button/Button.component';
 import SectionTitle from '../SectionTitle/SectionTitle.component';
 import Devlog from '../Devlog/Devlog.component';
+import GoToTop from '../GoToTop';
 
 import './HomeLab.styles.scss';
 
@@ -28,6 +29,7 @@ export default function HomeLab() {
           </div>
         </div>
       </div>
+      <GoToTop />
     </Fragment>
   );
 }

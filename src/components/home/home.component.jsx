@@ -4,6 +4,7 @@ import HomeAbout from '../HomeAbout/HomeAbout.component';
 import HomeProjects from '../HomeProjects/HomeProjects.component';
 import HomeDevlog from '../HomeDevlog/HomeDevlog';
 import HomeLab from '../HomeLab/HomeLab';
+import GoToTop from '../GoToTop';
 
 import {
   FaCodeBranch,
@@ -32,6 +33,7 @@ function Home() {
       <HomeProjects />
       <HomeDevlog />
       <HomeLab />
+      <GoToTop />
     </Fragment>
   );
 }

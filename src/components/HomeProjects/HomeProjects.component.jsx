@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import SectionTitle from '../SectionTitle/SectionTitle.component';
 import Button from '../Button/Button.component';
 import HomeProjectItem from '../HomeProjectItems/HomeProjectItems.component';
+import GoToTop from '../GoToTop';
 
 import './HomeProjects.styles.scss';
 
@@ -25,6 +26,7 @@ function HomeProject() {
           </div>
         </div>
       </div>
+      <GoToTop />
     </Fragment>
   );
 }

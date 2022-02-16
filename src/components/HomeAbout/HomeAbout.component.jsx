@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
 import SectionTitle from '../SectionTitle/SectionTitle.component';
+import GoToTop from '../GoToTop';
 
 import Button from '../Button/Button.component';
 
@@ -79,6 +80,7 @@ const HomeAbout = () => (
         </ul>
       </div>
     </div>
+    <GoToTop />
   </Fragment>
 );
 

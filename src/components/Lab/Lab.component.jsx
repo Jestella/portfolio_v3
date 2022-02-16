@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
+import GoToTop from '../GoToTop';
 
 import './Lab.styles.scss';
 
@@ -14,6 +15,7 @@ const Lab = () => {
           </Link>
         </div>
       </div>
+      <GoToTop />
     </Fragment>
   );
 };

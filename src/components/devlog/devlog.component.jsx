@@ -2,6 +2,7 @@ import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
 
 import Button from '../Button/Button.component';
+import GoToTop from '../GoToTop';
 
 import './Devlog.styles.scss';
 
@@ -16,6 +17,7 @@ const Devlog = () => {
           </Link>
         </div>
       </div>
+      <GoToTop />
     </Fragment>
   );
 };
