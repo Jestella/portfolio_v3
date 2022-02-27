@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import GoToTop from '../GoToTop';
 
 import Button from '../Button/Button.component';
-import nextjs from '../../assets/nextjs.png';
 
 import './Devlog.styles.scss';
 
@@ -13,7 +12,8 @@ function Devlog() {
       id: 1,
       month: 'February',
       title: 'Next.js',
-      subtitle: 'Built the first Next.js application with Next.js tutorial',
+      subtitle:
+        'Learned Next.js from scratch and created my first Next.js application with Next.js tutorial',
       linkUrl: 'https://github.com/Jestella/nextjs-blog',
       link: 'github repository',
     },

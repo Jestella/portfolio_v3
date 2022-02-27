@@ -2,7 +2,7 @@ export const ProjectData = [
   {
     id: 1,
     projectName: 'Portfolio / 2022',
-    subName: 'My portfolio website',
+    subName: 'Personal portfolio website',
     technologies: 'React, Sass',
     imageUrl:
       'https://user-images.githubusercontent.com/31642902/153725838-7d250f4b-0c86-4ced-92ea-e2702f809eba.png',
@@ -29,7 +29,7 @@ export const ProjectData = [
   {
     id: 3,
     projectName: 'S Multimedia Studio / 2021',
-    subName: 'A single page website I built to practice DOM',
+    subName: 'A single page website I built to practice DOM manipulation',
     technologies: 'JavaScript, CSS3, HTML5',
     imageUrl:
       'https://user-images.githubusercontent.com/31642902/114468658-d7666880-9bb9-11eb-8a58-66c4e076946c.png',

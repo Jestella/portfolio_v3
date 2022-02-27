@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.f7939c96.chunk.css",
-    "main.js": "/static/js/main.b041c6b8.chunk.js",
-    "main.js.map": "/static/js/main.b041c6b8.chunk.js.map",
+    "main.js": "/static/js/main.1f1cc7a9.chunk.js",
+    "main.js.map": "/static/js/main.1f1cc7a9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c2c2fc61.js",
     "runtime-main.js.map": "/static/js/runtime-main.c2c2fc61.js.map",
     "static/js/2.51a83086.chunk.js": "/static/js/2.51a83086.chunk.js",
@@ -14,7 +14,6 @@
     "static/js/2.51a83086.chunk.js.LICENSE.txt": "/static/js/2.51a83086.chunk.js.LICENSE.txt",
     "static/media/Typescript.1a203e65.png": "/static/media/Typescript.1a203e65.png",
     "static/media/memoji.5a14e4c7.png": "/static/media/memoji.5a14e4c7.png",
-    "static/media/nextjs.2e6a1b95.png": "/static/media/nextjs.2e6a1b95.png",
     "static/media/profile.2a48467f.jpeg": "/static/media/profile.2a48467f.jpeg",
     "static/media/sass.24d60c4f.png": "/static/media/sass.24d60c4f.png",
     "static/media/stellalee_CV.e2989852.pdf": "/static/media/stellalee_CV.e2989852.pdf"
@@ -23,6 +22,6 @@
     "static/js/runtime-main.c2c2fc61.js",
     "static/js/2.51a83086.chunk.js",
     "static/css/main.f7939c96.chunk.css",
-    "static/js/main.b041c6b8.chunk.js"
+    "static/js/main.1f1cc7a9.chunk.js"
   ]
 }
