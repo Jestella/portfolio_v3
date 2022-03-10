@@ -15,6 +15,7 @@ import {
 } from 'react-icons/fa';
 import typescript from '../../assets/Typescript.png';
 import sass from '../../assets/sass.png';
+import nextjs from '../../assets/next-js.png';
 
 import './HomeAbout.styles.scss';
 import './skills.styles.scss';
@@ -47,6 +48,10 @@ const HomeAbout = () => (
           <li>
             <FaReact color='#1cc5dc' />
             <p>React</p>
+          </li>
+          <li>
+            <img src={nextjs} className='sass' />
+            <p>Next.js</p>
           </li>
           <li>
             <FaNodeJs color='#4aa96c' />

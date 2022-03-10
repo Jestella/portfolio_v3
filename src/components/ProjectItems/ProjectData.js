@@ -1,6 +1,20 @@
 export const ProjectData = [
   {
     id: 1,
+    projectName: 'bistro lee / 2022',
+    subName: 'Restaurant website',
+    technologies: 'Next.js',
+    imageUrl:
+      'https://user-images.githubusercontent.com/31642902/157604188-c9576af1-c1a9-460a-84b8-6474a8157318.png',
+
+    gitHub: 'https://github.com/Jestella/bistrolee',
+    description1:
+      'Currently learning Next.js & building this website (March 8th -).',
+    description2:
+      'Live demo for this project is not available at the moment. Please visit my github repository.',
+  },
+  {
+    id: 2,
     projectName: 'Portfolio / 2022',
     subName: 'Personal portfolio website',
     technologies: 'React, Sass',
@@ -14,7 +28,7 @@ export const ProjectData = [
       'Previous versions: https://jestella.github.io/portfolio_v2/, https://github.com/Jestella/portfolio_v1',
   },
   {
-    id: 2,
+    id: 3,
     projectName: 'Style S / 2021',
     subName: 'An e-commerce platform built with React and Redux',
     technologies: 'React, Redux, Sass',
@@ -27,7 +41,7 @@ export const ProjectData = [
       'Features: 1). Google Sign In Authentication 2). Payment with Stripe API 3). Add items from Shop page 4). Remove items from Checkout page.',
   },
   {
-    id: 3,
+    id: 4,
     projectName: 'S Multimedia Studio / 2021',
     subName: 'A single page website I built to practice DOM manipulation',
     technologies: 'JavaScript, CSS3, HTML5',
@@ -41,7 +55,7 @@ export const ProjectData = [
       'Event propagation, delegation, DOM traversing, and lazy loading images are used for the project.',
   },
   {
-    id: 4,
+    id: 5,
     projectName: 'Quiz / 2021',
     subName: 'Get-to-Know-Her Quiz built with React',
     technologies: 'React, TypeScript',
@@ -54,7 +68,7 @@ export const ProjectData = [
       'Created quiz API (url: https://s-quiz-api.herokuapp.com/quiz)',
   },
   {
-    id: 5,
+    id: 6,
     projectName: 'Star Wars for non Star Wars fans / 2021',
     subName: 'A Star Wars Cheat Sheet',
     technologies: 'SWAPI API, React',
@@ -82,7 +96,7 @@ export const ProjectData = [
   //     "How to use (4-steps): 1). Input a new word 2). Add a sample sentence 3). Provide definition of the new word 4). Click pencil icon to create a new note.",
   // },
   {
-    id: 6,
+    id: 7,
     projectName: 'Blog, Story / 2020',
     subName: 'A simple blog website built using ejs',
     technologies: 'JavaScript, Node.js, Bootstrap, EJS',
