@@ -3,7 +3,7 @@ export const ProjectData = [
     id: 1,
     projectName: 'bistro lee / 2022',
     subName: 'Restaurant website',
-    technologies: 'Next.js',
+    technologies: 'Next.js, TypeScript, Sass',
     imageUrl:
       'https://user-images.githubusercontent.com/31642902/157604188-c9576af1-c1a9-460a-84b8-6474a8157318.png',
 

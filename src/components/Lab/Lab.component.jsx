@@ -17,7 +17,7 @@ function Lab() {
         <div className='lab-container'>
           <h1>Coming Soon...💡</h1>
           <Link to='/' className='btn'>
-            <button className='dev-btn'>go back</button>
+            <button className='dev-btn'>Home</button>
           </Link>
 
           {/* <div>

@@ -10,22 +10,30 @@ function Devlog() {
   const logs = [
     {
       id: 1,
+      month: 'March',
+      title: 'Next.js',
+      subtitle: 'Built a restaurant website with Next.js',
+      linkUrl: 'https://github.com/Jestella/bistrolee',
+      link: 'Github Repository',
+    },
+    {
+      id: 2,
       month: 'February',
       title: 'Next.js',
       subtitle:
         'Learned Next.js from scratch and created my first Next.js application with Next.js tutorial',
       linkUrl: 'https://github.com/Jestella/nextjs-blog',
-      link: 'github repository',
+      link: 'Github Repository',
     },
     {
-      id: 2,
+      id: 3,
       month: 'January',
       title: 'Data Structures & Algorithms',
       subtitle:
         'Completed the Udemy course <Master the Coding Interview: Data Strucrues + Algorithms>',
       linkUrl:
         'https://www.udemy.com/certificate/UC-61c4a8ac-bf1c-4d72-b634-2e002328994c/',
-      link: 'certificate of completion',
+      link: 'Certificate of Completion',
     },
   ];
 
@@ -43,7 +51,7 @@ function Devlog() {
 
                 <div className='devlog-read'>
                   <span className='related-link'>
-                    + related link:{' '}
+                    + Related Link:{' '}
                     <a href={linkUrl} target='_blank'>
                       {link}
                     </a>
@@ -55,7 +63,7 @@ function Devlog() {
 
           <div className='center'>
             <Link to='/' className='btn'>
-              <Button>go back</Button>
+              <Button>Home</Button>
             </Link>
           </div>
         </div>

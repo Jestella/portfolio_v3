@@ -21,7 +21,7 @@ function HomeProject() {
           <HomeProjectItem />
           <div className='center'>
             <Link to='/portfolio'>
-              <Button>View More</Button>
+              <Button>More</Button>
             </Link>
           </div>
         </div>

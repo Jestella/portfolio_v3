@@ -11,7 +11,7 @@ const ErrorPage = (props) => {
       <h1 className='error-h1'>
         Oops. This page doesn't exist.
         <Link to='/' className='btn'>
-          <Button>back to home</Button>
+          <Button>Home</Button>
         </Link>
       </h1>
     </div>
