@@ -6,7 +6,7 @@ export const ProjectData = [
     technologies: 'Next.js, TypeScript, Sass',
     imageUrl:
       'https://user-images.githubusercontent.com/31642902/157604188-c9576af1-c1a9-460a-84b8-6474a8157318.png',
-
+    liveDemo: 'https://bistrolee-jestella.vercel.app/',
     gitHub: 'https://github.com/Jestella/bistrolee',
     description1:
       'Currently learning Next.js & building this website (March 8th -).',

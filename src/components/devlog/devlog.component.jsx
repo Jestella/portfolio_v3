@@ -13,8 +13,8 @@ function Devlog() {
       month: 'March',
       title: 'Next.js',
       subtitle: 'Built a restaurant website with Next.js',
-      linkUrl: 'https://github.com/Jestella/bistrolee',
-      link: 'Github Repository',
+      linkUrl: 'https://bistrolee-jestella.vercel.app/',
+      link: 'Live Demo',
     },
     {
       id: 2,
