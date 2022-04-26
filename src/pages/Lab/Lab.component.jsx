@@ -1,7 +1,7 @@
 import React, { Fragment, useState } from 'react';
 import { Link } from 'react-router-dom';
-import GoToTop from '../GoToTop';
-import Button from '../Button/Button.component';
+import GoToTop from '../../components/GoToTop';
+import Button from '../../components/Button/Button.component';
 
 import './Lab.styles.scss';
 

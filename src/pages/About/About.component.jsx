@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import SectionTitle from '../SectionTitle/SectionTitle.component';
-import Button from '../Button/Button.component';
-import GoToTop from '../GoToTop';
+import SectionTitle from '../../components/SectionTitle/SectionTitle.component';
+import Button from '../../components/Button/Button.component';
+import GoToTop from '../../components/GoToTop';
 
 import { FaRegFolder, FaRegFolderOpen } from 'react-icons/fa';
 import memoji from '../../assets/memoji.png';

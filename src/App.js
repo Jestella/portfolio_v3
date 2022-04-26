@@ -3,12 +3,12 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import Navbar from './components/Navbar/Navbar.component';
 import Footer from './components/Footer/Footer.component';
-import Home from './components/Home/Home.component';
+import Home from './pages/Home/Home.component';
 import FixedItem from './components/FixedItem/FixedItem.component';
-import About from './components/About/About.component';
-import Portfolio from './components/Portfolio/Portfolio.component';
-import Devlog from './components/Devlog/Devlog.component';
-import Lab from './components/Lab/Lab.component';
+import About from './pages/About/About.component';
+import Portfolio from './pages/Portfolio/Portfolio.component';
+import Devlog from './pages/Devlog/Devlog.component';
+import Lab from './pages/Lab/Lab.component';
 import ErrorPage from './components/ErrorPage/ErrorPage.component';
 
 import './App.css';

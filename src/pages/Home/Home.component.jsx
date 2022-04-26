@@ -1,10 +1,10 @@
 import React, { Fragment } from 'react';
-import Main from '../Main/Main.component';
-import HomeAbout from '../HomeAbout/HomeAbout.component';
-import HomeProjects from '../HomeProjects/HomeProjects.component';
-import HomeDevlog from '../HomeDevlog/HomeDevlog';
-import HomeLab from '../HomeLab/HomeLab';
-import GoToTop from '../GoToTop';
+import Main from '../../components/Main/Main.component';
+import HomeAbout from '../../components/HomeAbout/HomeAbout.component';
+import HomeProjects from '../../components/HomeProjects/HomeProjects.component';
+import HomeDevlog from '../../components/HomeDevlog/HomeDevlog';
+import HomeLab from '../../components/HomeLab/HomeLab';
+import GoToTop from '../../components/GoToTop';
 
 import {
   FaCodeBranch,

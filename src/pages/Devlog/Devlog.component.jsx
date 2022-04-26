@@ -1,13 +1,22 @@
 import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
-import GoToTop from '../GoToTop';
+import GoToTop from '../../components/GoToTop';
 
-import Button from '../Button/Button.component';
+import Button from '../../components/Button/Button.component';
 
 import './Devlog.styles.scss';
 
 function Devlog() {
   const logs = [
+    {
+      id: 1,
+      month: 'April',
+      title: 'MERN Project',
+      subtitle:
+        'Built a CRUD API web application with MongoDB, Express, React and Node.js',
+      linkUrl: 'https://github.com/Jestella/mern2',
+      link: 'Github Repository',
+    },
     {
       id: 1,
       month: 'March',

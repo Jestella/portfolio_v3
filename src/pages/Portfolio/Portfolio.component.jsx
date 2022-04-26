@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
-import ProjectItems from '../ProjectItems/ProjectItems.component';
-import GoToTop from '../GoToTop';
+import ProjectItems from '../../components/ProjectItems/ProjectItems.component';
+import GoToTop from '../../components/GoToTop';
 
 import './Portfolio.styles.scss';
 

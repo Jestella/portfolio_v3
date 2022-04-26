@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import Button from '../Button/Button.component';
 import SectionTitle from '../SectionTitle/SectionTitle.component';
-import Devlog from '../Devlog/Devlog.component';
+import Devlog from '../../pages/Devlog/Devlog.component';
 import GoToTop from '../GoToTop';
 
 import './HomeDevlog.styles.scss';
